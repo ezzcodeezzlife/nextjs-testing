@@ -71,7 +71,7 @@ export default function Home({ data }) {
 // This gets called on every request
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch(`http://localhost:3000/api/hello`)
+  const res = await fetch(`nextjs-testing-sigma-sepia.vercel.app/api/hello`)
   const data = await res.json()
   console.log(data)
 
