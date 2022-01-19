@@ -16,6 +16,8 @@ export default function Home({ data }) {
           Welcome <a href="https://nextjs.org"> {  data.name } </a>
         </h1>
 
+
+        <a href='/article' className={styles.description}>Artikel</a>
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>

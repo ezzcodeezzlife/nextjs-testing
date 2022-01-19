@@ -8,7 +8,8 @@ const article =
     author: "nibba",
     date: "212133",
     }
+    
 export default function handler(req, res) {
-    res.status(200).json(article)
+    res.status(200).json(JSON.stringify(article))
   }
   
